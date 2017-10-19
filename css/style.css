@@ -13,6 +13,7 @@ header{
 	background: rgba(0, 137, 123, .8);
 	height: 70px;
 	position: fixed;
+	z-index: 10;
 
 }
 
@@ -72,4 +73,32 @@ nav ul li a:hover{
 	background-position: center;
 	background-attachment: contain;
 	background-size: cover;
+	width: 100%;
+}
+
+/*Contenido dentro del Slider*/
+.ancho-letras{
+	top: 200px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+}
+
+.letras-slider{
+	width: 80%;
+	margin: auto;
+}
+
+.letras-slider h1{
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 70px;
+}
+
+.letras-slider p{
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	padding-top: 50px;
 }
