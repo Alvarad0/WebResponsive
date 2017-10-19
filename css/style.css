@@ -151,6 +151,7 @@ h2{
 	padding: 20px 20px; 
 	box-sizing: border-box;
 	margin: auto;
+	padding-bottom: 50px;
 }
 
 .columnasX3 img{
@@ -167,4 +168,47 @@ h5{
 	font-weight: normal;
 	padding: 10px 0;
 	font-size: 12px; 
+}
+
+/* Banner 1 */
+.banner_1{
+	width: 100%;
+	clear: both;
+	background: #26A69A;
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	box-sizing: border-box;
+	transition: 0.4s;
+}
+
+.banner_1 h3{
+	color: #fff;
+	font-size: 52ox;
+}
+
+.banner_1 a{
+	text-decoration: none;
+	margin-left: 20px;
+	font-weight: bold;
+	color: #fff;
+	border-bottom: 2px solid #fff;
+}
+
+.banner_1:hover{
+	background: #004D40;
+	transition: 0.4s;
+}
+
+/* Iconos */
+.columnasX3 i{
+	float: left;
+	padding-right: 20px;
+	color: #455A64;
+}
+
+.columnasX3 h4{
+	padding-bottom: 20px;
 }
