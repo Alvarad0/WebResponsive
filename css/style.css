@@ -10,8 +10,10 @@
 
 header{
 	width: 100%;
-	background: #00897B;
+	background: rgba(0, 137, 123, .8);
 	height: 70px;
+	position: fixed;
+
 }
 
 .ancho{
@@ -62,4 +64,12 @@ nav ul li a{
 
 nav ul li a:hover{
 	color: #444;
+}
+
+/*Slider Particulas*/
+#particles-js{
+	background: #444;
+	background-position: center;
+	background-attachment: contain;
+	background-size: cover;
 }
