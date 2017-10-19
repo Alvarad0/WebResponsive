@@ -8,6 +8,18 @@
 	src: url('https://fonts.googleapis.com/css?family=Roboto');
 }
 
+h1, h2, h3, h4, h5, h6{
+	color: #444;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	color: #888;
+	font-size: 15px;
+}
+
 header{
 	width: 100%;
 	background: rgba(0, 137, 123, .8);
@@ -69,7 +81,7 @@ nav ul li a:hover{
 
 /*Slider Particulas*/
 #particles-js{
-	background: #444;
+	background: #455A64;
 	background-position: center;
 	background-attachment: contain;
 	background-size: cover;
@@ -101,4 +113,58 @@ nav ul li a:hover{
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	padding-top: 50px;
+}
+
+/* Estilos Secciones */
+.h3_bienvenida{
+	font-size: 20px;
+	line-height: 1.5;
+	padding-top: 20px;
+	font-weight: normal;
+	text-transform: 
+}
+
+.wap{
+	width: 90%;
+	margin: auto;
+}
+
+h2{
+	font-size: 26px;
+	color: #333;
+}
+
+.bienvenidos{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.contenedor-columnas{
+	width: 100%;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.columnasX3{
+	width: 33.333%;
+	float: left;
+	padding: 20px 20px; 
+	box-sizing: border-box;
+	margin: auto;
+}
+
+.columnasX3 img{
+	width: 100%;
+}
+
+h4{
+	margin-top: 15px;
+	font-size: 16px;
+}
+
+h5{
+	line-height: 1.5;
+	font-weight: normal;
+	padding: 10px 0;
+	font-size: 12px; 
 }
