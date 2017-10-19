@@ -243,3 +243,64 @@ h5{
 	color: #fff;
 	border-bottom: 2px solid #fff;
 }
+
+/* Redes Sociales */
+.redes_soc{
+	position: fixed;
+	top: 200px;
+	z-index: 100;
+	left: 0;
+}
+
+#facebook a{
+	background: #3b5998;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	width: 55px;
+	transition: 0.4s;
+}
+#twitter a{
+	background: #55acee;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	width: 55px;
+	transition: 0.4s;
+}
+#instagram a{
+	background: #fbad50;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	width: 55px;
+	transition: 0.4s;
+}
+#google a{
+	background: #F4511E;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	width: 55px;
+	transition: 0.4s;
+}
+
+#facebook a:hover{
+	padding: 10px 50px;
+	transition: 0.4s;
+}
+
+#twitter a:hover{
+	padding: 10px 50px;
+	transition: 0.4s;
+}
+
+#instagram a:hover{
+	padding: 10px 50px;
+	transition: 0.4s;
+}
+
+#google a:hover{
+	padding: 10px 50px;
+	transition: 0.4s;
+}
