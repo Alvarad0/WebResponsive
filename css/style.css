@@ -233,7 +233,7 @@ h5{
 	font-size: 32px;
 	height: 100%;
 	padding-top: 6%;
-	margin-left: 20px;
+	margin-left: 1px;
 }
 
 .banner_2 a{
@@ -312,6 +312,7 @@ h5{
 	text-align: center;
 	padding-top: 50px;
 	margin-left: 20px;
+	padding-bottom: 550px;
 }
 
 .tablaX4{
@@ -423,6 +424,65 @@ h5{
 	color: #777;
 }
 
-.caja-precio:hover{
+/* Animacion al Pasar el mouse sobre la tabla de precios*/
+/* .caja-precio:hover{
 	border: 5px solid #85c34a;
+} */
+
+/* Slider */
+.testimonios{
+	clear: both;
+	padding: 50px 0;
+	text-align: center;
+}
+
+/* Formulario */
+.dos_columnas{
+	margin-top: 50px;
+	padding-left: 20px;
+}
+
+.formulario{
+	float: left;
+	width: 50%;
+	margin: auto;
+	color: #999;
+}
+
+.caja-1{
+	width: 250px;
+	height: 40px;
+	margin: 20px;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.caja-2{
+	width: 545px;
+	height: 100px;
+	margin: 20px;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.btn_Enviar{
+	background: #85c34a;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px 40px;
+	letter-spacing: 1px;
+	width: 65%;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+
+.correr{
+	margin: 20px;
+	padding: 10px;
+}
+
+.btn_Enviar:hover{
+	background: #777;
 }
